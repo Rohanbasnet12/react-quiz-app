@@ -1,10 +1,11 @@
 import React from "react";
 import "./App.css";
+import QuizWrapper from "./components/QuizWrapper";
 
 function App() {
   return (
     <>
-      <h1>Hello World</h1>
+      <QuizWrapper />
     </>
   );
 }
