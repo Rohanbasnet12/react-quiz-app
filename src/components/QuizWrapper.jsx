@@ -1,16 +1,21 @@
 import React from "react";
-import "./QuizWrapper.css";
+import Background from "./Background/Background";
 
 const QuizWrapper = () => {
   return (
-    <div id="quiz">
-      <div
-        id="background-wraper"
-        className="w-full h-screen flex items-center justify-center"
-      >
-        <div id="quiz-wrapper"></div>
+    <>
+      <Background />
+      <div id="quiz">
+        <div
+          id="quiz-wrapper"
+          className="w-full h-screen flex items-center justify-center"
+        >
+          <h1 className="text-5xl font-extrabold text-blue-400">
+            Quizify Start learning...
+          </h1>
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 
